@@ -1,0 +1,191 @@
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    width: 100%;
+}
+section,.container,.row{
+    margin: 0;
+    margin-right:0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+
+#top .img-top{
+    height: 50px;
+    width: 100%;
+    background: rgb(33, 33, 33);
+}
+#top .img-top img{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+
+#hero .container{
+    height: 100%;
+    width: 100%;
+    background: #003ecc;
+}
+#hero .container .content{
+    padding-top: 6rem;
+}
+#hero .container .row .img-1{
+    height: 77.5px;
+    width: 67px;
+    display: flex;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+#hero .container .content .second-div{
+    display: block;
+    left: -15%;
+}
+#hero .container .content .row h1{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+}
+#hero .container .content .row p{
+    color: rgba(150, 185, 255, 1);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -o.6px;
+}
+#hero .container .btn-container{
+    padding-top: 15px;
+}
+#hero .container .btn-container .btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: none;
+    background: rgb(242,153,74);
+    padding: 15px;
+    width: 180px;
+    height: 60px;
+}
+#hero .container .content .img-container{
+    padding-top: 4rem;
+}
+#hero .content .img-container img{
+    width: 220px;
+}
+#hero .content .txt-container{
+    padding-top: 1rem;
+}
+#hero .content .txt-container span{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.2;
+    color: rgba(150, 185, 255, 1);
+}
+
+#hero .container .content .hero-img-1{
+    width: 100%;
+}
+#hero .container .content .hero-img-2{
+    width: 20%;
+    display: inline;
+    position: absolute;
+    left: 14rem;
+    top: 21rem;
+    z-index: 889;
+}
+#hero .container .content .hero-img-3{
+    width: 30%;
+    display: inline;
+    position: absolute;
+    left: 10rem;
+    top: 15rem;
+    z-index:888;
+}
+#hero .container .content .hero-img-4{
+    width: 40%;
+    display: inline;
+    position: absolute;
+    left: -3rem;
+    top: 17rem;
+}
+
+
+
+/* Features Section*/
+#hero .content .feature{
+    height: 120vh;
+    width: 100%;
+    background: #003ecc;
+    margin-top: 15rem;
+}
+.feature .txt-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+}
+.feature .txt-container p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(150, 185, 255, 1);
+}
+.feature h1{
+    color: rgba(229, 238, 255, 1);
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.feature .card-container{
+    padding-top: 5rem;
+    width: 100%;
+}
+.feature .card{
+    width: 294px;
+    height: 230px;
+    background: rgba(229, 238, 255, 0.05);
+    border: transparent solid 5px;
+    border-radius: 20px;
+    box-shadow: 8px 4px 8px 0 rgb(74 100 164 / 40%);
+    display: flex;
+    justify-content: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.feature .card i{
+    color: #fff;
+    font-size: 50px;
+}
+.feature .card h4{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.feature .card span{
+    color: rgba(150, 185, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+.feature .card.card-feature-1{
+    margin-left: 20%;
+}
+.feature .card.card.card-feature-2{
+    margin-left: 10%;
+}
+
+/* For Hover Effect in the card */
+.feature .card:hover{
+    border: rgb(242,153,74) solid 5px;
+    border-radius: 20px;
+    transform: scale(1.08);
+    transition: ease-in-out 0.6s;
+    color: rgb(242,153,74)!important;
+}
