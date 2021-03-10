@@ -2,6 +2,7 @@ body{
     box-sizing: border-box;
     margin: 0%;
     width: 100%;
+    transition: all ease-in-out 0.6s;
 }
 section,.container,.row{
     margin: 0;
@@ -10,6 +11,24 @@ section,.container,.row{
     max-width: 100%;
 }
 
+/* For all the animations in the page*/
+@keyframes up-down {
+    0% {
+      transform: translateY(15px);
+    }
+    100% {
+      transform: translateY(-15px);
+    }
+  }
+
+  @keyframes up-down2{
+      0%{
+          transform: translateY(-10px);
+      }
+      100%{
+          transform: translateY(10px);
+      }
+  }
 
 
 #top .img-top{
@@ -65,12 +84,21 @@ section,.container,.row{
     font-size: 18px;
     text-transform: none;
     background: rgb(242,153,74);
+    border: solid 2px rgb(242,153,74);
     padding: 15px;
     width: 180px;
     height: 60px;
 }
+/* For the hover effect of the button*/
+#hero .container .btn-container .btn:hover{
+    color: rgb(242,153,74);
+    background: transparent;
+    transform: scale(1.08);
+    transition:  rgb(242,153,74) all ease-in-out 0.4s;
+}
 #hero .container .content .img-container{
     padding-top: 4rem;
+    transition: all ease-in-out 0.6s;
 }
 #hero .content .img-container img{
     width: 220px;
@@ -95,6 +123,7 @@ section,.container,.row{
     left: 14rem;
     top: 21rem;
     z-index: 889;
+    animation: up-down 3s ease-in-out infinite alternate-reverse both;
 }
 #hero .container .content .hero-img-3{
     width: 30%;
@@ -103,6 +132,7 @@ section,.container,.row{
     left: 10rem;
     top: 15rem;
     z-index:888;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 #hero .container .content .hero-img-4{
     width: 40%;
@@ -110,11 +140,12 @@ section,.container,.row{
     position: absolute;
     left: -3rem;
     top: 17rem;
+    animation: up-down2 2s ease-in-out infinite alternate-reverse both;
 }
 
 
 
-/* Features Section*/
+/* Features Section styling starts here*/
 #hero .content .feature{
     height: 120vh;
     width: 100%;
@@ -158,10 +189,12 @@ section,.container,.row{
     padding-left: 30px;
     padding-top: 20px;
     padding-bottom: 10px;
+    pointer-events: auto;
 }
 .feature .card i{
     color: #fff;
     font-size: 50px;
+    pointer-events: none;
 }
 .feature .card h4{
     padding-top: 10px;
@@ -187,5 +220,131 @@ section,.container,.row{
     border-radius: 20px;
     transform: scale(1.08);
     transition: ease-in-out 0.6s;
-    color: rgb(242,153,74)!important;
+}
+
+
+/*How to use section styling starts here*/
+
+#hero .howtouse{
+    width: 100%;
+    background: #003ecc;
+    height: 230vh;
+    margin-top: 2rem;
+}
+.howtouse .txt-container{
+    padding-top: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+}
+.howtouse .txt-container p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(150, 185, 255, 1);   
+}
+.howtouse h1{
+    color: rgba(229, 238, 255, 1);
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: all ease-in-out 0.3s;
+}
+.howtouse .howtotxt{
+    color: rgba(150, 185, 255, 1);
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -o.6px;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 15px;
+}
+.howtouse .img-container{
+    width: 100%;
+    padding-top: 1rem;
+    background: #003ecc;
+    display: inline;
+}
+.howtouse .img-container .row{
+    transition: all ease-in-out 0.6s;
+}
+#hero .content .img-container img{
+    width: calc(100% - 2rem);
+    padding-top: 5rem;
+    display: inline-block;
+    position: absolute;
+}
+.howtouse .img-container .txt p{
+    font-size: 16px!important;
+}
+.howtouse .img-container .first-col .txt{
+    position: absolute;
+    top: 55rem;
+    left: 2rem;
+}
+.howtouse .img-container .second-col .txt{
+    position: absolute;
+    top: 20rem;
+    left: 2rem;
+}
+.howtouse .img-container .third-col .txt{
+    position: absolute;
+    top: 28rem;
+    left: 2rem;
+}
+
+/* Whats Included Sections*/
+#hero .content .whatincluded{
+    height: 280vh;
+    width: 100%;
+    background: #003ecc;
+    margin-top: 2rem
+}
+#hero .whatincluded .txt-container{
+    margin-left: 20%;
+    display: flex;
+    padding-top: 20px;
+}
+#hero .whatincluded .txt-container p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(150, 185, 255, 1);
+}
+#hero .whatincluded h1{
+    color: rgba(229, 238, 255, 1);
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+    transition: all ease-in-out 0.6s;
+}
+#hero .whatincluded .text{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    color: rgba(150, 185, 255, 1);   
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#hero .whatincluded .img-container{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#hero .whatincluded .img-container img{
+    width: 288px;
+}
+#hero .whatincluded .img-container .row.second-row{
+    margin-top: 22rem;
+}
+#hero .whatincluded .img-container .row.third-row{
+    margin-top: 22rem;
+}
+#hero .whatincluded .img-container .row{
+    transition: all ease-in-out 0.6s;
 }
