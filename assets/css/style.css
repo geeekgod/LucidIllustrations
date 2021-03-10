@@ -101,7 +101,7 @@ section,.container,.row{
     transition: all ease-in-out 0.6s;
 }
 #hero .content .img-container img{
-    width: 220px;
+    width: 220px!important;
 }
 #hero .content .txt-container{
     padding-top: 1rem;
@@ -271,8 +271,8 @@ section,.container,.row{
 .howtouse .img-container .row{
     transition: all ease-in-out 0.6s;
 }
-#hero .content .img-container img{
-    width: calc(100% - 2rem);
+#hero .content .howtouse .img-container img{
+    width: calc(100% - 2rem)!important;
     padding-top: 5rem;
     display: inline-block;
     position: absolute;
@@ -298,7 +298,7 @@ section,.container,.row{
 
 /* Whats Included Sections*/
 #hero .content .whatincluded{
-    height: 280vh;
+    height: 255vh;
     width: 100%;
     background: #003ecc;
     margin-top: 2rem
@@ -337,14 +337,228 @@ section,.container,.row{
     margin-right: 10%;
 }
 #hero .whatincluded .img-container img{
-    width: 288px;
+    width: 288px!important;
 }
 #hero .whatincluded .img-container .row.second-row{
-    margin-top: 22rem;
+    margin-top: 5rem;
 }
 #hero .whatincluded .img-container .row.third-row{
-    margin-top: 22rem;
+    margin-top: 5rem;
 }
 #hero .whatincluded .img-container .row{
     transition: all ease-in-out 0.6s;
+}
+
+
+/* The Pricing section styling starts from here*/
+#hero .pricing{
+    height: 130vh;
+    width: 100%;
+    background: #003ecc;
+    margin-top: 5rem;
+}
+#hero .pricing .txt-container{
+    margin-left: 20%;
+    display: flex;
+    padding-top: 20px;
+}
+#hero .pricing .txt-container p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(150, 185, 255, 1);
+}
+#hero .pricing h1{
+    color: rgba(229, 238, 255, 1);
+    font-size: 64px;
+    font-weight: 700;
+    display: flex;
+    justify-content: left;
+    margin-left: 20%;
+    margin-right: 20%;
+    transition: all ease-in-out 0.6s;
+}
+#hero .pricing .text{
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    color: rgba(150, 185, 255, 1);   
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#hero .pricing .pricing-container{
+    margin-left: 22%;
+    margin-right: 20%;
+}
+#hero .pricing .pricing-container img{
+    width: 20px;
+    position: absolute;
+    left: -18px;
+    top: 9px;
+}
+#hero .pricing .pricing-container span{
+    font-size: 20px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: -0.4px;
+    text-decoration: none;
+    text-transform: none;
+    color: rgba(229, 238, 255, 1);
+}
+#hero .pricing .pricing-container .row{
+    padding-top: 20px;
+}
+#hero .pricing .btn-container{
+    margin-top: 4rem;
+    margin-left: 20%;
+}
+#hero .pricing .btn-container .btn{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: none;
+    background: rgb(242,153,74);
+    border: solid 2px rgb(242,153,74);
+    padding: 15px;
+    width: 180px;
+    height: 60px;
+}
+#hero .pricing .img-container-2{
+    margin-top: 3rem;
+}
+#hero .pricing .img-container-2 img{
+    width: 220px;
+    display: absolute;
+    margin-left: 20%;
+    transition: all ease-in-out 0.6s;
+}
+
+/* The Footer styling starts here*/
+#footer{
+    width: 100%;
+    height: 310vh;
+    background: #131313;
+}
+#footer .display{
+    padding-top: 7rem;
+}
+#footer .display .row{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#footer img{
+    width: 300px;
+    border-radius: 8px;
+}
+#footer .row .txt-cont{
+    padding-top: 15px;
+}
+#footer .row .txt-cont h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(224, 224, 224);
+}
+#footer .row .txt-cont p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #989898;
+}
+
+#footer .newsletter{
+    padding-top: 8rem;
+    height: 100%;
+    background: #131313;
+}
+#footer .newsletter .head{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    color: #989898;
+    padding-bottom: 4rem;
+}
+#footer .newsletter h1{
+    font-size: 48px;
+    font-weight: 400;
+}
+#footer .btn-container{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#footer .email{
+    width: 300px;
+    height: 60px;
+    padding-left: 20px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    border: solid 1px #989898;
+    border-radius: 5px;
+    color: #989898;
+}
+#footer .email:hover{
+    transform: scale(1.05);
+    border: #f2994a solid;
+    color: #f2994a;
+    border-radius: 5px;
+}
+#footer .btn{
+    background: #fff;
+    color: #131313;
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    height: 60px;
+    padding: 15px;
+}
+#footer .btn:hover{
+    background: transparent;
+    color: #fff;
+    border: #fff solid;
+}
+#footer .btn-container .txt{
+    margin-top: 4rem;
+    margin-left: 11%;
+    font-size: 18px;
+    color: #989898;
+}
+#footer .profile{
+    margin-top: 8rem;
+    width: 100%;
+}
+#footer .profile h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    letter-spacing: -0.6px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-bottom: 8rem;
+}
+#footer .profile .profile-img{
+    display: flex;
+    margin-top: -20px;
+    justify-content: center;
+}
+#footer .profile h4{
+    display: flex;
+    justify-content:center;
+    margin-top: 4rem;
+    font-size: 24px;
+    font-weight: 400;
+    color: #989898;
+}
+#footer .social{
+    padding-top: 60px;
+    color: #fff;
+}
+#footer .social a{
+    text-decoration: none;   
+    color: #fff;
+}
+#footer .social .icon{
+    margin-left: 40%;
+    font-size: 40px;
 }
