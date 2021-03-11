@@ -562,3 +562,149 @@ section,.container,.row{
     margin-left: 40%;
     font-size: 40px;
 }
+
+
+/*  The Responsive media queries start from here*/
+
+/* Responsive Design for all below 1000px devices*/
+@media(max-width:1040px){
+    body{
+        width: 100% !important;
+    }
+    #top .img-top{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #hero .container{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #hero .feature{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #hero .howtouse{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #hero .whatincluded{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #hero .pricing{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    #footer{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    .howtouse .img-container .first-col .txt{
+        position: relative;
+        top: 0 !important;
+        margin-top: 230%;
+    }
+    .howtouse .img-container .second-col .txt{
+        position: relative;
+        top: 0;
+        margin-top: 90%;
+    }
+    .howtouse .img-container .third-col .txt{
+        position: relative;
+        top: 0;
+        margin-top: 120%;
+    }
+    #hero .whatincluded .img-container{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    /* Media Query for Footer Section*/
+    #footer .display .row{
+        margin-left: 5% !important;
+        margin-right: 5% !important;
+    }
+
+    #footer .display .row img{
+        width: 100%;
+    }
+
+
+}
+
+/* Responsive Design For all the devices below 999px*/
+@media(max-width:999px){
+    #hero .container .row .img-1{
+        margin-left: 15%;
+    }
+    #hero .container .row .home-txt{
+        margin-left: -10% !important;
+    }
+    #hero h1{
+        margin-left: 10% !important;
+    }
+    #hero p{
+        margin-left: -12% !important;
+    }
+    #hero .howtotxt{
+        margin-left: 10% !important;
+    }
+    #hero .text{
+        margin-left: 10% !important;
+    }
+    .feature .card{
+        width: 100%!important;
+        height: 100% !important;
+        padding: 30px;
+    }
+    .feature .card.card-feature-1{
+        margin-left: auto;
+    }
+    .feature .card.card.card-feature-2{
+        margin-left: auto;
+    }
+
+    /* Media Query for how to use for how to use section*/
+    .howtouse .img-container .first-col .txt{
+        position: relative !important;
+        top: 0 !important;
+        margin-top: 250%;
+    }
+    .howtouse .img-container .second-col .txt{
+        position: relative !important;
+        top: 0 !important;
+        margin-top: 96%;
+    }
+    .howtouse .img-container .third-col .txt{
+        position: relative !important;
+        top: 0;
+        margin-top: 140%;
+    }
+
+    /* Media Query for What included section*/
+    #hero .whatincluded{
+        max-width: 100%;
+        width: 100%;
+        height: calc(250vh - 10%) !important;
+    }
+    #hero .whatincluded .img-container img{
+        width: 100% !important;
+    }
+
+
+    /* Media Query for pricing container*/
+    #hero .pricing .pricing-container{
+        margin-left: 12%;
+        margin-right: 5%;
+    }
+
+    /* Media Query for footer section*/
+    #footer .display .row{
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+
+    #footer .display .row img{
+        width: calc(100% - 20px);
+    }
+}
