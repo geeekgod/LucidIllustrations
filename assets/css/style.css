@@ -708,3 +708,165 @@ section,.container,.row{
         width: calc(100% - 20px);
     }
 }
+
+/* Responsive design for devices below 884px*/
+@media(max-width:884px){
+    #top .img-top{
+        width: 100%;
+        height: 80%;
+    }
+    #hero .container .content .hero-img-2{
+        left: calc(14rem - 13%);
+    }
+}
+
+/* Responsive design for devices below 768px*/
+@media(max-width:768px){
+    #hero .container .row .home-txt{
+        margin-left: 25% !important;
+    }
+
+    #hero h1{
+        font-size: calc(64px - 25%) !important;
+    }
+    #hero .content .row .home.img-container{
+        margin-left: 25% !important;
+    }
+    #hero .content .row .home.btn-container{
+        margin-left: 25% !important;
+    }
+    #hero .content .row .img-1{
+        position: absolute;
+        left: -14%;
+    }
+    #hero .content .row .col-md-4.img-div{
+        margin-top: -70%;
+        width: 40%;
+        margin-left: 60%;
+    }
+
+    #hero .container .content .hero-img-2{
+        left: calc(14rem - 10%);
+    }
+
+    /* Responsive Design for the Features Section*/
+    #hero .feature{
+        margin-top: 10rem !important;
+        width: 100%;
+    }
+
+    /* Responsive Design for the How To Use Section*/
+    #hero .howtouse{
+        margin-top: 8rem !important;
+        height: calc(230vh - 10rem);
+    }
+
+    /* Responsive Design for the Pricing Section*/
+    #hero .pricing{
+        margin-top: 8rem;
+    }
+    #hero .pricing .btn-container{
+        margin-left: 10%;
+    }
+    #hero .pricing .img-container-2{
+        margin-left: -12%;
+    }
+
+    /* Responsive Design for the Footer Container*/
+    #footer .btn-container{
+        margin-left: 1% !important;
+        margin-right: 0;
+    }
+    #footer .btn-container .txt{
+        text-align: center;
+        margin-left: -5%;
+    }
+}
+
+/* Responsive Design for the Devices below 658px width*/
+@media(max-width:660px){
+    #hero .content .row .col-md-4.img-div{
+        margin-left: 55%;
+        margin-top: -90%;
+    }
+
+    #hero h1{
+        font-size: 48px !important;
+    }
+
+    /* Responsive Design for the How to Use*/
+    #hero .howtouse {
+        margin-top: 8rem !important;
+        height: calc(230vh - 15rem) !important;
+    }
+
+    /* Responsive Design for the Footer Section*/
+    #footer .btn-container{
+        margin-left: 0 !important;
+    }
+    #footer .btn-container .email{
+        width: calc(300px - 13%) !important;
+    }
+    #footer .btn-container .btn{
+        width: calc(300px - 13%);
+    }
+}
+
+/* Responsive Design for the Devices below 575px width*/
+@media(max-width:576px){
+
+    #hero .content .row .img-1{
+        width: calc(67px - 1.5%) !important;    
+    }
+
+    #hero .container .content .hero-img-4{
+        left: 0;
+    }
+
+    #hero .container .content .hero-img-2 {
+        left: 85%;
+    }
+
+    /* Responsive Design for the Features Section*/
+    #hero .feature{
+        height: 180vh !important;
+    }
+
+    #hero .feature .card{
+        width: 70% !important;
+        display: flex;
+        justify-content: center;
+        margin-left: 15%;
+        text-align: center;
+    }
+    #hero .feature .col-sm-4{
+        margin-top: 25px;
+    }
+
+    /* Responsive Design for The How to use Section*/
+    #hero .howtouse{
+        width: 100%;
+        height: 390vh !important;
+    }
+
+    #hero .content .howtouse .img-container img{
+        width: 60% !important;
+        margin-left: 20%;
+    }
+    #hero .content .howtouse .txt p{
+        margin-left: 30% !important;
+        font-size: 20px !important;
+    }
+    #hero .howtouse .first-col .txt p{
+        margin-top: -33rem;
+    }
+    #hero .howtouse .second-col .txt p{
+        margin-top: -14rem;
+    }
+    #hero .howtouse .third-col .txt p{
+        margin-top: -20rem; 
+    }
+
+    /* Responsive Design for the Whats Included Section*/
+    #hero .whatincluded .img-container img
+}
