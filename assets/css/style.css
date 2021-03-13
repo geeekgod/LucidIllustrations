@@ -1006,7 +1006,7 @@ h1 ,h2, h3, h4 ,p ,span{
 
     /* How to Use Section*/
     #hero .howtouse{
-        height: 250vh !important;
+        height: 260vh !important;
     }
     #hero .howtouse .first-col .txt p {
         margin-top: calc(-33rem + 58%) !important;
@@ -1020,7 +1020,7 @@ h1 ,h2, h3, h4 ,p ,span{
 
     /* Pricing Section*/
     #hero .pricing{
-        height: 130vh !important;
+        height: 138vh !important;
     }
 
     /* Footer Section*/
