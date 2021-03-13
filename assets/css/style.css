@@ -10,6 +10,9 @@ section,.container,.row{
     padding: 0;
     max-width: 100%;
 }
+h1 ,h2, h3, h4 ,p ,span{
+    cursor: default;
+}
 
 /* For all the animations in the page*/
 @keyframes up-down {
@@ -922,5 +925,19 @@ section,.container,.row{
     #footer .profile .row.social .col-sm-4 {
         display: flex;
         width: 150px;
+    }
+}
+
+/* Responsive Design For devices below 541px*/
+@media(max-width:541px){
+    #hero .howtouse .first-col .txt p{
+        margin-top: calc(-33rem + 12%) !important;
+    }
+
+    #hero .howtouse .second-col .txt p{
+        margin-top: calc(-14rem + 10%) !important;
+    }
+    #hero .howtouse .third-col .txt p{
+        margin-top: calc(-20rem + 15%) !important;
     }
 }
