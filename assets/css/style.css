@@ -930,6 +930,13 @@ h1 ,h2, h3, h4 ,p ,span{
 
 /* Responsive Design For devices below 541px*/
 @media(max-width:541px){
+    /* Design For the img background*/
+    #hero .content .row .col-md-4.img-div {
+        margin-left: 53%;
+        margin-top: -105% !important;
+    }
+
+    /* How To Use Styling*/
     #hero .howtouse .first-col .txt p{
         margin-top: calc(-33rem + 12%) !important;
     }
@@ -940,4 +947,96 @@ h1 ,h2, h3, h4 ,p ,span{
     #hero .howtouse .third-col .txt p{
         margin-top: calc(-20rem + 15%) !important;
     }
+
+    /* Whats Included Styling*/
+    #hero .whatincluded .text{
+        font-size: calc(24px - 15%) !important;
+    }
+}
+
+/* Below 528px*/
+@media(max-width:529px){
+    /* Design For the img background*/
+    #hero .content .row .col-md-4.img-div{
+        margin-top: -110% !important;
+    }
+    /* Design For the Pricing Container*/
+    #hero .pricing{
+        height: 185vh !important;
+    }
+
+    /* Design For the footer section*/
+    #footer{
+        height: 450vh !important;
+    }
+    #footer .profile h1 {
+        font-size: 36px !important;
+    }
+    #footer .profile .row.social {
+        margin-left: 0% !important;
+        display: flex;
+        justify-content: center;
+    }
+    #footer .profile .row.social .col-sm-4 {
+        display: flex;
+        width: 100px;
+    }
+}
+
+/* Below 500px*/
+@media(max-width:450px){
+    /* Design For the img background*/
+    #hero .content .row .col-md-4.img-div{
+        margin-top: -140% !important;
+    }
+    #hero .container .content .hero-img-3 {
+        left: 7rem !important;
+    }
+    #hero .container .content .hero-img-2 {
+        top: 19rem;
+    }
+    #hero .container .content .hero-img-4 {
+        left: 2rem;
+    }
+
+    /* Feauters Section*/
+    #hero .feature{
+        height: 135vh !important;
+    }
+
+    /* How to Use Section*/
+    #hero .howtouse{
+        height: 250vh !important;
+    }
+    #hero .howtouse .first-col .txt p {
+        margin-top: calc(-33rem + 58%) !important;
+    }
+    #hero .howtouse .second-col .txt p {
+        margin-top: calc(-14rem + 35%) !important;
+    }
+    #hero .howtouse .third-col .txt p {
+        margin-top: calc(-20rem + 35%) !important;
+    }
+
+    /* Pricing Section*/
+    #hero .pricing{
+        height: 130vh !important;
+    }
+
+    /* Footer Section*/
+    #footer{
+        height: 305vh !important;
+    }
+    #footer .display .btn-container{
+        margin-left: 10% !important;
+    }
+    #footer .btn-container .txt {
+         margin-left: -5% !important;
+    }
+    #footer .profile h1 {
+        font-size: 30px !important;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
 }
