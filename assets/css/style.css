@@ -783,6 +783,16 @@ section,.container,.row{
     }
 }
 
+/* Responsive Design for the Devices below width 665px */
+@media(max-width: 685px){
+
+    /*Responsivenes of the pricing section*/
+    #hero .pricing{
+        height:  150vh !important;
+    }
+}
+
+
 /* Responsive Design for the Devices below 658px width*/
 @media(max-width:660px){
     #hero .content .row .col-md-4.img-div{
@@ -847,6 +857,7 @@ section,.container,.row{
     #hero .howtouse{
         width: 100%;
         height: 390vh !important;
+        margin-top: 13rem !important;
     }
 
     #hero .content .howtouse .img-container img{
@@ -868,5 +879,41 @@ section,.container,.row{
     }
 
     /* Responsive Design for the Whats Included Section*/
-    #hero .whatincluded .img-container img
+    #hero .whatincluded .img-container img{
+        width: 65% !important;
+        display: flex;
+        margin-top: 25px;
+        margin-left: 17%;
+    }
+
+    /* Responsive Design of the Pricing Section*/
+    #hero .pricing{
+        height:  170vh !important;
+    }
+
+    /* Responsive Design  fot the Footer Section*/
+    #footer{
+        height: 500vh !important;
+    }
+    #footer .display .row img {
+        width: 60% ;
+        margin-top: 30px;
+    }
+    #footer .display .row.content{
+        margin-left: 25% !important;
+    }
+    #footer .display .btn-container{
+        margin-left: 22% !important;
+    }
+    #footer .display .btn-container .btn{
+        margin-top: 20px;
+    }
+
+    #footer .btn-container .txt{
+        margin-left: -25% !important;
+    }
+
+    #footer .profile h1{
+        font-size: 38px !important;
+    }
 }
