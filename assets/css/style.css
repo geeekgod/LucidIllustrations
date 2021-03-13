@@ -916,4 +916,11 @@ section,.container,.row{
     #footer .profile h1{
         font-size: 38px !important;
     }
+    #footer .profile .row.social{
+        margin-left: calc(10% - 2px) !important;
+    }
+    #footer .profile .row.social .col-sm-4 {
+        display: flex;
+        width: 150px;
+    }
 }
